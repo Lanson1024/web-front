@@ -1,0 +1,648 @@
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+ul{
+    list-style-type: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+svg{
+    position: relative;
+}
+body{
+    
+    background-color: rgb(233,229,230);
+}
+header{
+    background-color: rgb(245,245,245);
+    height: 35px;
+    width: 100%;
+}
+.foot-img{
+    width: 100%;
+    position: relative;
+    top:-100px;
+}
+.chose-lang{
+    font-size:10px;
+    margin-left: 255px;
+    position: relative;
+    top: 9px;
+    height: 100%;
+    width: 95px;
+}
+.login{
+    margin-left: 23px;
+    color: #ff4e00;
+}
+.overflow{
+    display:none;
+    position: relative;
+    top:-12px;
+    background-color: #fff;
+    height: 400px;
+    width: 300px;
+    overflow-y: scroll;
+}
+.chose-lang:hover .overflow{
+    display: block;
+}
+.chose-lang:hover{
+    cursor: pointer;
+}
+.overflow p{
+    margin-left: 20px;
+    margin-top: 13px;
+}
+header span{
+    font-size: 12px;
+    line-height: 18px;
+    position: relative;
+    top:-30px;
+    left:340px;
+    margin-left:10px;
+}
+header span:hover{
+    cursor: pointer;
+}
+.current-lang+svg{
+    position: relative;
+    top:-16px;
+    left:60px;
+}
+.my-taobao{
+    margin-left: 300px;
+    cursor: pointer;
+}
+svg{
+    cursor: pointer;
+}
+
+.my-taobao-overflow{
+    background-color: rgb(245,245,245);
+    position: absolute;
+    top:25px;
+    left: 950px;
+    width: 7%;
+    height: 102px;
+    line-height: 25px;
+    display: none;
+    line-height: 25px;
+    cursor: pointer;
+}
+.my-taobao-overflow li:first-child{
+    margin-top: 8px;
+}
+.my-taobao-overflow:hover{
+    display: block;
+}
+
+.my-taobao:hover~.my-taobao-overflow{
+    display: block;
+}
+.seller-center-overflow{
+    z-index: 2;
+    background-color: rgb(245,245,245);
+    position: absolute;
+    top:25px;
+    left: 1385px;
+    width: 6%;
+    height: 210px;
+    line-height: 25px;
+    display: none;
+    line-height: 30px;
+    cursor: pointer;
+}
+.seller-center:hover~.seller-center-overflow{
+    display: block;
+}
+.seller-center-overflow:hover{
+    display: block;
+}
+.service-overflow{
+    z-index: 2;
+    background-color: rgb(245,245,245);
+    position: absolute;
+    top:25px;
+    left: 1485px;
+    width: 5%;
+    height: 130px;
+    line-height: 25px;
+    display: none;
+    line-height: 30px;
+    cursor: pointer;
+}
+.service:hover~.service-overflow{
+    display: block;
+}
+.service-overflow:hover{
+    display: block;
+}
+.bookmark-overflow{
+    z-index: 2;
+    background-color: rgb(245,245,245);
+    position: absolute;
+    top:25px;
+    left: 1153px;
+    width: 5%;
+    height: 60px;
+    line-height: 25px;
+    display: none;
+    line-height: 30px;
+    cursor: pointer;
+}
+.bookmark:hover~.bookmark-overflow{
+    display: block;
+}
+.bookmark-overflow:hover{
+    display: block;
+}
+header svg{
+    position: relative;
+    font-size:10px;
+    top:-30px;
+    left:340px;
+}
+.gouwuche{
+    font-size: 14px;;
+    margin-left:20px;
+}
+.shopping-cart+svg{
+    font-size: 15px;
+    margin-left: 15px;
+}
+.register{
+    margin-left: 13px;
+}
+.app-taobao{
+    margin-left: 15px;
+}
+.barrier-free{
+    margin-left: 15px;
+}
+.open-store::after{
+    cursor: default;
+    content: "|";
+    margin-left: 30px;
+    margin-right: 20px;
+    color: #94959E;
+}
+.logo{
+    width: 110px;
+    position: absolute;
+    top: 76px;
+    left: 315px;
+}
+.search-bar{
+    position: relative;
+    top:50px;
+    left:500px;
+    background-color: #fff;
+    border: 2px rgb(255,82,0) solid;
+    border-radius: 35px;
+    width: 800px;
+    height: 45px;
+}
+.chose-option{
+    width: 70px;
+    position: relative;
+    top:12px;
+    left: 20px;
+    z-index:3;
+}
+.chose-option+svg{
+    z-index: 2;
+    left: 60px;
+    top:-10px;
+    font-size: 10px;
+}
+.chose-option::after{
+    content:"|";
+    margin-left: 25px;
+    color:#94959E;
+}
+
+.chose-option-overflow{
+    position: relative;
+    top:-22px;
+    background-color: #fff;
+    width: 76px;
+    height: 100px;
+    display: none;
+    z-index:2;
+}
+.chose-option-overflow p{
+    position: relative;
+    top:40px;
+    left:20px;
+}
+.chose-option-overflow p:first-child{
+    position: relative;
+    top:30px;
+    left:20px;
+}
+.chose-option:hover{
+    cursor: pointer;
+}
+.chose-option:hover~.chose-option-overflow{
+    display: block;
+}
+.chose-option-overflow:hover{
+    display: block;
+    cursor: pointer;
+}
+input{
+    position: absolute;
+    font-size: 16px;
+    color: #94959E;
+    outline: none;
+    top: 13px;
+    left: 90px;
+    border: none;
+    width: 700px;
+}
+input:focus{
+    color: black;
+}
+.btn-search{
+    position: absolute;
+    width: 70px;
+    font-size: 22px;
+    border-radius: 50px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #ff7f00, #ff4c00);
+    color: #fff;
+    left:728px;
+    top:2px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.download{
+    position: relative;
+    background-color: #fff;
+    height: 115px;
+    width: 100px;
+    top:-50px;
+    left:1400px;
+}
+.download p{
+    color:red;
+    position: relative;
+    top:5px;
+    left:15px;
+}
+.download img{
+    position: relative;
+    height: 80px;
+    top:10px;
+    left:10px;
+}
+.recommand{
+    position: relative;
+    top:60px;
+    left:520px;
+    font-size:12px;
+    color: #94959E;
+
+}
+.recommand span{
+    margin-left:10px;
+}
+#content{
+    width: 70%;
+    margin:-20px auto;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+}
+.sort{
+    width: 20%;
+    height: 350px;
+    background-color: rgb(247, 249, 250);
+    border-radius: 30px;
+    padding: 20px 30px 30px;
+}
+.sort-nav li{
+    line-height: 16px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.sort-nav svg{
+    font-size:25px;
+    position: relative;
+    top:25px;
+}
+.content-nav{
+    position: relative;
+    top: -400px;
+    left: 27%;
+    height: 50px;
+    width: 74%;
+    border-radius: 20px;
+    background-color: rgb(247, 249, 250);
+}
+.content-nav span{
+    position: relative;
+    top:12px;
+    left:35px;
+    font-size: 18px;
+    border-right: 2px rgb(231, 226, 224) solid;
+    padding-right: 20px;
+    margin-right: 20px;
+    
+}
+.content-nav span:first-child, span:first-child+span{
+    color: rgb(255, 29, 4);
+}
+.green{
+    color:rgb(8, 215, 49);
+}
+.content-nav span:last-child{
+    border: none;
+}
+.swiper{
+    position: relative;
+    top:-380px;
+    left: 15px;
+    border-radius: 20px;
+    height: 330px;
+    width: 48%;
+}
+.swiper-wrapper div{
+    background-size: cover;
+}
+.first-Slide{
+    background-image: url(./images/轮播1.jpg);
+}
+.second-Slide{
+    background-image: url(./images/轮播2.jpg);
+}
+.third-Slide{
+    background-image: url(./images/轮播3.jpg);
+}
+.fourth-Slide{
+    background-image: url(./images/轮播4.png);
+}
+.fifth-Slide{
+    background-image: url(./images/轮播5.jpg);
+}
+.personal{
+    background-color: #fff;
+    height: 330px;
+    width: 24%;
+    position: relative;
+    left: 77%;
+    top:-710px;
+}
+.personal img{
+    position: relative;
+    height: 20%;
+    top:5%;
+    left:38%;
+}
+.head-img+p{
+    position: relative;
+    top:10%;
+    left:37%;
+    font-size:18px;
+}
+.personal-nav button{
+    margin-left: 2%;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    height: 40px;
+    width: 30%;
+    top:50px;
+    left:-1%;
+    color:black;
+}
+.personal-nav button:first-child{
+    background: linear-gradient(to right, #ff7f00, #ff4c00);
+
+}
+.personal-nav button:first-child+button{
+    
+    background:linear-gradient(to right, rgb(255, 143, 0), rgb(255, 114, 0));
+}
+.personal-nav .open-store-nav{
+    background-color: #fff;
+    border:  rgb(255, 143, 0) 1px solid;
+}
+.login-nav span{
+    color: #fff;
+    font-size: 18px;
+}
+.reg-nav span{
+    font-size: 18px;
+    color: #fff;
+}
+.open-store-nav span{
+    font-size: 18px;
+    color:orange;
+}
+.personal-nav svg{
+    position: relative;
+    top:15px;
+    left:30%;
+    font-size: 30px;
+}
+.personal-nav a{
+    position: relative;
+    top:60px;
+    display: inline-block;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.personal-nav p{
+    position: relative;
+    top:30px;
+    font-size: 14px;
+}
+.hot{
+    position: relative;
+    top:33%;
+    left:2%;
+    height: 10%;
+    width: 90%;
+}
+.hot span:first-child{
+    position: relative;
+    top:5px;
+    left:5px;
+    background-color: rgb(255, 239, 239);
+    color:#ff4c00;
+    font-size:14px;
+}
+.hot span:last-child{
+    position: relative;
+    top:5px;
+    left:10px;
+    color: #94959E;
+    font-size:14px;
+}
+.side-bar{
+    z-index: 5;
+    position: fixed;
+    height: 40%;
+    width: 5%;
+    background-color: #fff;
+    border-radius: 30px 0 0 30px;
+    top:30%;
+    left: 95%;
+    cursor: pointer;
+}
+.side-bar svg{
+    position: relative;
+    left:27%;
+    font-size:35px;
+
+}
+.side-bar div{
+    position: relative;
+    left:10%;
+    background-color: transparent;
+    height: 20%;
+    width: 80%;
+    margin-top: 20%;
+
+}
+.side-bar p{
+    position: relative;
+    left:27%;
+}
+.side-bar .service-btn{
+    left:5%;
+}
+#guess-like{
+    position: absolute;
+    top:650px;
+    height: 600px;
+    width: inherit;
+}
+#guess-like>h3{
+    font-weight:initial;
+    font-size: 1.8em;
+}
+h3+p{
+    position: relative;
+    width: 67px;
+    height: 23px;
+    border-radius: 8px;
+    top:-30px;
+    left:140px;
+    padding: 3px;
+    color: #fff;
+    background: linear-gradient(to right, #ff7f00, #ff4c00);
+}
+.single-object:hover{
+    border:#ff4c00 1px solid;
+}
+.single-object{
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    top:-15px;
+    height: 150px;
+    width: 354px;
+    background-color: rgb(247, 249, 250);
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.no-margin-right{
+    margin-right:0;
+}
+.single-object img{
+    height: 150px;
+    border-radius: 10px;
+}
+.single-object .obj-description{
+    position: relative;
+    top:-150px;
+    left:46%;
+    line-height: 23px;
+    height: 40%;
+    width: 53%;
+}
+.hot-btn{
+    padding: 5px;
+    border-radius: 10px;
+    font-size:8px;
+    color:#fff;
+    background:linear-gradient(to right, #ff7f00, #ff4c00);
+    position: relative;
+    top:1px;
+    left:0px;
+    margin-right: 5px;
+}
+.yunfeixian{
+    position: relative;
+    top:-150px;
+    left:163px;
+    width: 65px;
+    padding: 5px;
+    font-size:14px;
+    color: #ff4c00;
+    border: #ff4c00 1px solid;
+}
+.price{
+    font-size:24px;
+    color:#ff4e00;
+    position: relative;
+    top:-120px;
+    left: 160px;
+}
+.taocoin{
+    position: relative;
+    top:-180px;
+    font-size:14px;
+    left:250px;
+    width: 90px;
+    padding: 5px;
+    color: #ff4c00;
+    border: #ff4c00 1px solid;
+}
+.taocoin+p{
+    top:-145px;
+
+}
+#guess-like .mod{
+    top:-90px;
+}
+.help-nav div{
+    position: relative;
+    top:-200px;
+    left:20%;
+    display: inline-block;
+    width: 15%;
+    height: 20%;
+    margin-right: 20px;
+    vertical-align: top;
+}
+.help-nav svg{
+    
+    font-size: 60px;
+}
+.help-nav span{
+    margin-right: 6px;
+    cursor: pointer;
+    color: #94959E;
+}
+.help-nav p{
+    position: relative;
+    top: -50px;
+    left: 70px;
+    font-size: 20px;
+}
